@@ -94,6 +94,11 @@
         },
         {
             "name": "haskell class",
+            "scope":"entity.name.type",
+            "foreground": "var(normal)",
+        },
+        {
+            "name": "haskell class",
             "scope":"entity.name.class.haskell",
             "foreground": "var(b)",
         },
@@ -103,8 +108,8 @@
             "foreground": "var(r)",
         },
         {
-            "name": "storage.type",
-            "scope":"storage.type",
+            "name": "type constructor",
+            "scope":"declaration",
             "foreground": "var(b)",
         },
         {
@@ -125,7 +130,7 @@
         {
             "name": "class",
             "scope":"support.class",
-            "foreground": "var(g)",
+            "foreground": "var(normal)",
         },
         {
             "name": "data constructor",
@@ -150,7 +155,7 @@
         {
             "name": "native constant",
             "scope":"constant.language",
-            "foreground": "var(r)"
+            "foreground": "var(rose)"
         }
         
     ]
